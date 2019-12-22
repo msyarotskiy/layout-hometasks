@@ -1,0 +1,62 @@
+nav {
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    width: 700px;
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    margin-left: 110px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 3px;
+    padding: 3px 8px 3px 8px;
+}
+
+nav ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: #A13DD1;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+nav ul li span {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    color: #A13DD1;
+    line-height: 40px;
+}
+
+ul li:nth-child(-n+2):before {
+    content: "\00AB";
+    cursor: pointer;
+    color: #A13DD1;
+}
+
+ul li:nth-last-child(-n+2):after {
+    content: " \00BB";
+    cursor: pointer;
+    color: #A13DD1;
+}
+
+ul li:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):not([class="none"]) {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+}
+
+ul li:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):not([class="none"]):hover a {
+    color: white;
+}
+
+ul li:not(:nth-child(-n+2)):not(:nth-last-child(-n+2)):not([class="none"]):hover {
+    border: 1px solid #7313B3;
+    border-radius: 5px;
+    background-color: #A03CD0;
+}
