@@ -1,0 +1,81 @@
+input {
+    display: none;
+}
+
+label[for="red"] {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline red;
+    margin-right: 30px;
+}
+
+label[for="green"] {
+    cursor: pointer;
+    color: green;
+    text-decoration: underline green;
+    margin-right: 30px;
+}
+
+label[for="blue"] {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline blue;
+    margin-right: 30px;
+}
+
+span.red{
+    color: white;
+    border-radius: 8px;
+    background-color: red;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+span.green {
+    color: white;
+    border-radius: 8px;
+    background-color: green;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+span.blue {
+    color: white;
+    border-radius: 8px;
+    background-color: blue;
+    font-weight: bold;
+    padding: 5px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+#red:checked ~ label[for="red"] {
+    color: #FFB3B2;
+    text-decoration: underline #FFB3B2
+}
+
+#green:checked ~ label[for="green"] {
+    color: #B8DDB8;
+    text-decoration: underline #B8DDB8
+}
+
+#blue:checked ~ label[for="blue"] {
+    color: #B7B5FF;
+    text-decoration: underline #B7B5FF
+}
+
+#red:checked ~ .red {
+    display: none;
+}
+
+#green:checked ~ .green {
+    display: none;
+}
+
+#blue:checked ~ .blue {
+    display: none;
+}
