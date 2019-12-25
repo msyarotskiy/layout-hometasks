@@ -1,0 +1,30 @@
+nav {
+    background-color: blueviolet;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul a {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 11px 15px;
+    line-height: 47px;
+}
+
+nav ul a:hover {
+    background-color: azure;
+    color: gray;
+    box-shadow: 0 0 5px;
+}
+
+nav li:last-child {
+    float: right;
+    padding-right: 100px;
+}

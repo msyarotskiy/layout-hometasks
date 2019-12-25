@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+
+td:nth-child(2n+3) {
+    background-color: #F2F2DD;
+}
+
+tr:nth-child(even) {
+    background-color: #DDEBF8;
+}
