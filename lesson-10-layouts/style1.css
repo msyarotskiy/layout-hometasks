@@ -1,0 +1,98 @@
+#main-div {
+    background: #EE8129;
+    position: absolute;
+    border-radius: 3px;
+    width: 280px;
+    height: 450px;
+    box-shadow: 0 0 4px;
+}
+
+#main-div p {
+    font-size: 17pt;
+    text-align: center;
+    font-family: Open Sans;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#secondary-div {
+    background: white;
+    width: 273px;
+    height: 371px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    position: absolute;
+}
+
+#secondary-div p {
+    font-family: Open Sans;
+    font-size: 17pt;
+    text-align: center;
+    text-transform: uppercase;
+    color: #35495A;
+    margin-top: 20px;
+}
+
+#secondary-div sup {
+    vertical-align: top;
+}
+
+#secondary-div sub {
+    text-transform: capitalize;
+    font-size: 12pt;
+}
+
+#secondary-div span {
+    font-family: Open Sans;
+    font-size: 40pt;
+    text-align: center;
+    color: #35495A;
+    font-weight: bold;
+}
+
+#secondary-div table {
+    width: 90%;
+    margin: auto;
+}
+
+tr {
+    font-family: Open Sans;
+    color: #A2A5AB;
+    font-size: 12pt;
+    height: 30px;
+}
+
+tr:nth-child(odd) {
+    background-color: #EDF5FD;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+td img {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#secondary-div button {
+    cursor: pointer;
+    width: 90%;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    background-color: #EE8129;
+    border-radius: 5px;
+    border: 1px solid #EE8129;
+    border-bottom: 3px solid #B3560B;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: bold;
+}
