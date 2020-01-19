@@ -1,0 +1,74 @@
+body {
+    background: url("../images/plans-background.jpg") fixed no-repeat;
+}
+
+.plan__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 90px 0 0;
+}
+
+.plan__list-item {
+    margin-right: 30%;
+}
+
+.plan {
+    color: #201a19;
+    text-decoration: none;
+}
+
+.plan__description {
+    background-color: rgba(178, 178, 176, 0.9);
+    border: 3px solid #916b64;
+    border-left: none;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.plan__list-item:nth-child(2n) .plan__description {
+    width: 70%;
+    float: right;
+    border-left: 3px solid #916b64;
+    border-right: none;
+}
+
+.plan__list-item:nth-child(2n)::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.plan__list-item:nth-child(2n) {
+    margin: 0;
+    text-align: right;
+}
+
+.plan__annotation {
+    color: #fbfbf8;
+    background-color: #d83f2d;
+    text-align: right;
+    font-size: 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 8px;
+    margin: 0;
+    float: right;
+}
+
+.plan__feature {
+    background-color: #fbfbf8;
+    border: 2px solid #916b64;
+    padding: 10px;
+}
+
+.plan:hover .plan__description {
+    background-color: rgba(145, 107, 100, 0.9);;
+}
+
+.plan:hover .plan__title {
+    color: #fbfbf8;
+}
+
+.plan:hover h2 {
+    color: #b2b2b0;
+}
