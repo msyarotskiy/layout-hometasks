@@ -5,6 +5,28 @@
   <title>Task 2</title>
 </head>
 <body>
-  
+  <script>
+      'use strict';
+
+      function fuddyDuddy() {
+          for (var i = 1; i <= 100; i++) {
+              if ((i % 3 === 0) && (i % 5 === 0)) {
+                  console.log('Fuddy-Duddy');
+                  continue;
+              }
+              if (i % 3 === 0) {
+                  console.log('Fuddy');
+                  continue;
+              }
+              if (i % 5 === 0) {
+                  console.log('Duddy');
+                  continue;
+              }
+              console.log(i);
+          }
+      }
+
+      fuddyDuddy();
+  </script>
 </body>
 </html>
